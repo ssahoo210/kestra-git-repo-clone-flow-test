@@ -19,5 +19,5 @@ def get_quote_of_the_day():
 if __name__ == "__main__":
     print("Quote of the Day:")
     quote = get_quote_of_the_day()
-    Kestra.output({"quote": quote})
+    Kestra.outputs({"quote": quote})
     print(quote)
